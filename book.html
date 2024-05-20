@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Book A Ride</title>
+    <link rel="icon" href="./img/logograb.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta name="robots" content="index,follow">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://kit.fontawesome.com/641ebcf430.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delius&family=Freeman&family=Poppins:wght@200&family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body id="iau9">
+    <div id="i6po" class="gjs-grid-row">
+        <div id="itjq" class="gjs-grid-column">
+            <div id="iyd2" class="gjs-grid-row">
+                <div id="iqjl" class="gjs-grid-column">
+                    <a id="iucmr" href="index.html" class="gjs-link-box">
+                        <div data-type-icon="" id="irfl3k" class="gjs-icon">
+                            <img src="img/grab.png" style="max-width: 50%; height: auto;"/>
+                        </div>
+                    </a>
+                </div>
+                <div id="iffs" class="gjs-grid-column">
+                    <div id="it00l" class="gjs-grid-row">
+                        <div id="irtfd" class="gjs-grid-column">
+                            <a href="#destination-section" id="infmy1" class="gjs-link">Destination</a>
+                        </div>
+                        <div id="icyzp" class="gjs-grid-column">
+                            <a id="i88iz" href="#routing-section" class="gjs-link">Routing</a>
+                        </div>
+                        <div id="id7x" class="gjs-grid-column">
+                            <a id="i1mew" class="gjs-button" href="index.html"><i class="fa-solid fa-house fa-beat"></i> Back</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="irz7b" class="gjs-grid-row">
+        <div id="iycz3" class="gjs-grid-column">
+            <h1 id="irjua" class="gjs-heading">Where you wanna go? <span id="i4jn1p" class="gjs-text-green"> Choose destination <i class="fa-solid fa-location-dot fa-bounce"></i></h1>
+            <div id="destination-section"></div>
+            <div id="itndw" class="text-main-content" style="margin-bottom: -20px;">Kindly select your destination to proceed with your Grab ride booking.</div>
+            <div id="i3vvs" class="gjs-grid-column">
+                <h2 id="ihap8q" class="gjs-heading">Destination</h2>
+                <div id="itndw" class="text-main-content" style="margin-left: 125px;">You are here</div>
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.495065618663!2d101.698982!3d2.741753!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31cdbf80d4a21211%3A0x982778bb67b5fa0b!2sKuala%20Lumpur%20International%20Airport!5e0!3m2!1sen!2smy!4v1622030826478!5m2!1sen!2smy" 
+                    width="1000" 
+                    height="450" 
+                    style="border: 0; border-radius: 20px;" 
+                    allowfullscreen="none" 
+                    loading="lazy"
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    gestureHandling="none"
+                    scrolling="no"
+                    frameborder="0" 
+                    zoom="10"
+                    style="border:0; pointer-events:none;"
+                >
+                </iframe>
+            </div>
+            <div class="gjs-grid-row" style="border: solid 1px lightgrey; border-radius: 20px; box-shadow: 0 4px 8px rgba(0, 0,0, 0.1); display: inline-block;">
+                <div id="imymf" class="gjs-grid-column">
+                    <div id="ib541" class="gjs-grid-row">
+                        <div id="iz8m8" class="gjs-grid-column">
+                            <h2 style="margin-left: 180px; color: black; font-size: 40px;"><i class="fa-solid fa-hourglass-start fa-beat"></i> Starting point</h2>
+                            <img src="./img/starting.png" style="border-radius: 0%; margin-left: 235px;" class="feature-img">
+                            <div style="margin: 20px 0px 20px 100px;">
+                                <span style="font-weight: bold; font-size: 30px; color: black;">Kuala Lumpur International Airport (KLIA),</span> <br>64000, Sepang, <br>Selangor Darul Ehsan, Malaysia
+                            </div>
+                            <a id="iqx3z1" class="gjs-button" href="##" style="margin-left: 229px">Pin another location</a>
+                        </div>
+                        <div id="iepks" class="gjs-grid-column">
+                            <div id="destination-selector">
+                                <h2 style="margin-left: 140px; color: black; font-size: 40px;"><i class="fa-solid fa-location-dot fa-beat"></i> Destination</h2>
+                                <img src="./img/destination.png" style="border-radius: 0%; margin-left: 185px; margin-bottom: 15px;" class="feature-img"/>
+                                <label for="destinations" style="font-weight: bold; font-size: 30px; color: black;"><br>Choose a destination:</label>
+                                <select id="destinations" style="padding: 10px; border-radius: 10px; border: 1px solid #ccc; margin-left: 10px;">
+                                    <option value="Petronas Twin Towers">Petronas Twin Towers</option>
+                                    <option value="Putrajaya">Putrajaya</option>
+                                    <option value="Bukit Bintang">Bukit Bintang</option>
+                                    <option value="KL Tower">KL Tower</option>
+                                    <option value="Merdeka 118">Merdeka 118</option>
+                                    <option value="Exchange 106 @ TRX">Exchange 106 @ TRX</option>
+                                    <option value="Merdeka Square">Merdeka Square</option>
+                                    <option value="Tabung Haji Tower">Tabung Haji Tower</option>
+                                    <option value="Berjaya Times Square">Berjaya Times Square</option>
+                                </select>
+                                <br>
+                                <button class="btn" onclick="calculateRoutes()" style="margin-left: 120px; margin-top: 50px;">
+                                    <svg height="24" width="24" fill="#FFFFFF" viewBox="0 0 24 24" data-name="Layer 1" id="Layer_1" class="sparkle">
+                                        <path d="M10,21.236,6.755,14.745.264,11.5,6.755,8.255,10,1.764l3.245,6.491L19.736,11.5l-6.491,3.245ZM18,21l1.5,3L21,21l3-1.5L21,18l-1.5-3L18,18l-3,1.5ZM19.333,4.667,20.5,7l1.167-2.333L24,3.5,21.667,2.333,20.5,0,19.333,2.333,17,3.5Z"></path>
+                                    </svg>
+                                    <span class="text">Routing</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="routing-section"></div>
+            <div id="feedback-section" class="gjs-grid-row">
+                <div id="infwen" class="gjs-grid-column">
+                    <h2 id="ihap8q" class="gjs-heading">Routing</h2>
+                    <div id="i6fjjy" class="text-main-content">Provides efficient routing to ensure you reach your destination smoothly.</div>
+                    <div id="i5k4nf" class="gjs-grid-row">
+                        <div class="routing" style="margin-top: -50px;">
+                            <div class="box" style="font-size: 30px; color: black; font-weight: bold; padding-top: 20px;">
+                                <i class="fa-solid fa-calculator fa-bounce"></i>
+                                Dijkstra <br>
+                                <canvas id="routeMapDijkstra" width="600" height="700" style="width: 100%; height: 60%; margin-top: -50px;"></canvas>
+                                <div class="h3" id="distanceDijkstra" style="font-size: 20px; margin-top: -200px;"></div>
+                                <div class="h4" id="pathDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="timeExecutionDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="stepsDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bigODijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bestCaseDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="averageCaseDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="worstCaseDijkstra" style="font-size: 15px; padding-top: 50px;"></div>
+                            </div>
+                            <div class="box" style="font-size: 30px; color: black; font-weight: bold; padding-top: 20px;">
+                                <i class="fa-solid fa-calculator fa-bounce"></i>
+                                Bellman-Ford <br>
+                                <canvas id="routeMapBellmanFord" width="600" height="700" style="width: 100%; height: 60%; margin-top: -50px;"></canvas>
+                                <div class="h3" id="distanceBellmanFord" style="font-size: 20px; margin-top: -200px;"></div>
+                                <div class="h4" id="pathBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="timeExecutionBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="stepsBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bigOBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bestCaseBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="averageCaseBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="worstCaseBellmanFord" style="font-size: 15px; padding-top: 50px;"></div>
+                            </div>
+                            <div class="box" style="font-size: 30px; color: black; font-weight: bold; padding-top: 20px;">
+                                <i class="fa-solid fa-calculator fa-bounce"></i>
+                                Floyd-Warshall <br>
+                                <canvas id="routeMapFloydWarshall" width="600" height="700" style="width: 100%; height: 60%; margin-top: -50px;"></canvas>
+                                <div class="h3" id="distanceFloydWarshall" style="font-size: 20px; margin-top: -200px;"></div>
+                                <div class="h4" id="pathFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="timeExecutionFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="stepsFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bigOFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="bestCaseFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="averageCaseFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                                <div class="h4" id="worstCaseFloydWarshall" style="font-size: 15px; padding-top: 50px;"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="iz29ek" class="gjs-grid-row" style="margin-top: -50px;"><div id="ik2rdi" class="gjs-grid-column">
+                        <h2 id="i83vu9" class="gjs-heading">Wanna book?<br/> <span id="i7owfh" class="gjs-text-green">Rides with Grab</span></h2>
+                        <div id="in201n" class="text-main-content">Click here to book <br/></div>
+                        <a id="iwgwt5" class="gjs-button" style="cursor: pointer;">Book</a></div></div>
+                    <div id="iv3be5" class="gjs-grid-row">
+                        <div id="ilriti" class="gjs-grid-column">
+                            <div id="im0rle" class="gjs-grid-row">
+                                <div id="iotp6j" class="gjs-grid-column" style="margin-top: -70px;">
+                                    <a href="index.html" id="iih6cv" class="gjs-link-box">
+                                        <div data-type-icon="" id="ip6zoj" class="gjs-icon">
+                                            <img src="img/grab.png" style="max-width: 100%; margin-bottom: 10px;"/>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div id="i1hx7l" class="gjs-grid-column">
+                                    <a id="ij7g8t" title="" href="##" class="gjs-link">Pricing<br/></a>
+                                    <a id="ipjdtn" href="##" class="gjs-link">Terms &amp; Conditions<br/></a>
+                                    <a id="ikj01e" href="##" class="gjs-link">Refund Policy<br/></a>
+                                    <a id="i2sl68" href="##" class="gjs-link">Contact Us<br/></a>
+                                </div>
+                            </div>
+                            <div id="it6g1v" class="gjs-text-green">© Grab 2010 - 2024</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Select the button using its ID
+            var bookButton = document.getElementById('iwgwt5');
+
+            // Add an event listener to the button for the 'click' event
+            bookButton.addEventListener('click', function() {
+                // Display the alert message when the button is clicked
+                alert('You have booked this ride. Thank you for using our service.');
+            });
+        });
+
+        const positions = {
+            "KLIA": { x: 50, y: 300 },
+            "Putrajaya": { x: 150, y: 300 },
+            "Berjaya Times Square": { x: 250, y: 200 },
+            "Merdeka 118": { x: 200, y: 400 },
+            "Petronas Twin Towers": { x: 350, y: 100 },
+            "Merdeka Square": { x: 400, y: 150 },
+            "Bukit Bintang": { x: 300, y: 250 },
+            "KL Tower": { x: 450, y: 150 },
+            "Exchange 106 @ TRX": { x: 350, y: 400 },
+            "Tabung Haji Tower": { x: 500, y: 300 }
+        };
+
+        const edges = [
+            ["KLIA", "Putrajaya", 30],
+            ["Putrajaya", "Berjaya Times Square", 30],
+            ["Putrajaya", "Merdeka 118", 15],
+            ["Putrajaya", "Petronas Twin Towers", 20],
+            ["Berjaya Times Square", "Petronas Twin Towers", 20],
+            ["Berjaya Times Square", "Bukit Bintang", 15],
+            ["Merdeka 118", "Bukit Bintang", 10],
+            ["Petronas Twin Towers", "Merdeka Square", 20],
+            ["Merdeka Square", "Bukit Bintang", 5],
+            ["Bukit Bintang", "KL Tower", 15],
+            ["Bukit Bintang", "Exchange 106 @ TRX", 5],
+            ["KL Tower", "Tabung Haji Tower", 30],
+            ["Exchange 106 @ TRX", "Tabung Haji Tower", 20]
+        ];
+
+        function drawMap(context, path = []) {
+            context.clearRect(0, 0, 500, 600);
+
+            // Draw edges
+            context.strokeStyle = '#000';
+            context.lineWidth = 2;
+            edges.forEach(edge => {
+                const [start, end, distance] = edge;
+                context.beginPath();
+                context.moveTo(positions[start].x, positions[start].y);
+                context.lineTo(positions[end].x, positions[end].y);
+                context.stroke();
+
+                const midX = (positions[start].x + positions[end].x) / 2;
+                const midY = (positions[start].y + positions[end].y) / 2;
+                context.fillStyle = '#000';
+                context.fillText(`${distance}km`, midX, midY);
+            });
+
+            // Draw nodes
+            Object.keys(positions).forEach(node => {
+                context.beginPath();
+                context.arc(positions[node].x, positions[node].y, 10, 0, 2 * Math.PI);
+                context.fillStyle = '#000';
+                context.fill();
+                context.fillStyle = '#fff';
+                context.fillText(node, positions[node].x - 20, positions[node].y - 15);
+            });
+
+            // Draw path
+            if (path.length > 0) {
+                context.strokeStyle = '#50C878';
+                context.lineWidth = 4;
+                context.beginPath();
+                context.moveTo(positions[path[0]].x, positions[path[0]].y);
+                for (let i = 1; i < path.length; i++) {
+                    context.lineTo(positions[path[i]].x, positions[path[i]].y);
+                }
+                context.stroke();
+            }
+        }
+
+        function calculateRoutes() {
+            window.location = '#routing-section';
+            
+            const destination = document.getElementById('destinations').value;
+            
+            calculateRouteDijkstra(destination);
+            calculateRouteBellmanFord(destination);
+            calculateRouteFloydWarshall(destination);
+        }
+
+        function calculateRouteDijkstra(destination) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'dijkstra.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    document.getElementById('distanceDijkstra').innerHTML = 'Distance: ' + response.distance + ' km';
+                    document.getElementById('pathDijkstra').innerHTML = 'Path: ' + response.path.join(' > ');
+                    document.getElementById('timeExecutionDijkstra').innerHTML = 'Time Execution: ' + response.execution_time.toFixed(2) + ' ms';
+                    document.getElementById('stepsDijkstra').innerHTML = 'Time Complexity using step count: ' + response.steps;
+                    document.getElementById('bigODijkstra').innerHTML = 'Order of magnitude (Big-Oh Notation): ' + response.big_o;
+                    document.getElementById('bestCaseDijkstra').innerHTML = 'Best case: ' + response.best_case;
+                    document.getElementById('averageCaseDijkstra').innerHTML = 'Average case: ' + response.average_case;
+                    document.getElementById('worstCaseDijkstra').innerHTML = 'Worst case: ' + response.worst_case;
+
+                    // Generate the map with the path
+                    const canvas = document.getElementById('routeMapDijkstra');
+                    const context = canvas.getContext('2d');
+                    drawMap(context, response.path);
+                }
+            };
+            xhr.send('destination=' + destination);
+        }
+
+        function calculateRouteBellmanFord(destination) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'bellman-ford.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    document.getElementById('distanceBellmanFord').innerHTML = 'Distance: ' + response.distance + ' km';
+                    document.getElementById('pathBellmanFord').innerHTML = 'Path: ' + response.path.join(' > ');
+                    document.getElementById('timeExecutionBellmanFord').innerHTML = 'Time Execution: ' + response.execution_time.toFixed(2) + ' ms';
+                    document.getElementById('stepsBellmanFord').innerHTML = 'Time Complexity using step count: ' + response.steps;
+                    document.getElementById('bigOBellmanFord').innerHTML = 'Order of magnitude (Big-Oh Notation): ' + response.big_o;
+                    document.getElementById('bestCaseBellmanFord').innerHTML = 'Best case: ' + response.best_case;
+                    document.getElementById('averageCaseBellmanFord').innerHTML = 'Average case: ' + response.average_case;
+                    document.getElementById('worstCaseBellmanFord').innerHTML = 'Worst case: ' + response.worst_case;
+
+                    // Generate the map with the path
+                    const canvas = document.getElementById('routeMapBellmanFord');
+                    const context = canvas.getContext('2d');
+                    drawMap(context, response.path);
+                }
+            };
+            xhr.send('destination=' + destination);
+        }
+
+        function calculateRouteFloydWarshall(destination) {
+            const xhr = new XMLHttpRequest();
+            xhr.open('POST', 'floyd-warshall.php', true);
+            xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    const response = JSON.parse(xhr.responseText);
+                    document.getElementById('distanceFloydWarshall').innerHTML = 'Distance: ' + response.distance + ' km';
+                    document.getElementById('pathFloydWarshall').innerHTML = 'Path: ' + response.path.join(' > ');
+                    document.getElementById('timeExecutionFloydWarshall').innerHTML = 'Time Execution: ' + response.execution_time.toFixed(2) + ' ms';
+                    document.getElementById('stepsFloydWarshall').innerHTML = 'Time Complexity using step count: ' + response.steps;
+                    document.getElementById('bigOFloydWarshall').innerHTML = 'Order of magnitude (Big-Oh Notation): ' + response.big_o;
+                    document.getElementById('bestCaseFloydWarshall').innerHTML = 'Best case: ' + response.best_case;
+                    document.getElementById('averageCaseFloydWarshall').innerHTML = 'Average case: ' + response.average_case;
+                    document.getElementById('worstCaseFloydWarshall').innerHTML = 'Worst case: ' + response.worst_case;
+
+                    // Generate the map with the path
+                    const canvas = document.getElementById('routeMapFloydWarshall');
+                    const context = canvas.getContext('2d');
+                    drawMap(context, response.path);
+                }
+            };
+            xhr.send('destination=' + destination);
+        }
+
+        // Initial draw
+        window.onload = function() {
+            const canvasDijkstra = document.getElementById('routeMapDijkstra');
+            const contextDijkstra = canvasDijkstra.getContext('2d');
+            drawMap(contextDijkstra);
+
+            const canvasBellmanFord = document.getElementById('routeMapBellmanFord');
+            const contextBellmanFord = canvasBellmanFord.getContext('2d');
+            drawMap(contextBellmanFord);
+
+            const canvasFloydWarshall = document.getElementById('routeMapFloydWarshall');
+            const contextFloydWarshall = canvasFloydWarshall.getContext('2d');
+            drawMap(contextFloydWarshall);
+        };
+    </script>
+</body>
+</html>
